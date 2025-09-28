@@ -57,7 +57,8 @@ cargo run
 ```
 
 ## Example Output
-
+```bash
 QuickSwap: 3995.720294 USDC
 SushiSwap: 3946.991025 USDC
 Buy Sushi -> Sell Quick | Profit: 48.726466893193404
+```
