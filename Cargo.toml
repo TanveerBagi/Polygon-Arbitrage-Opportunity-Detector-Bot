@@ -1,0 +1,12 @@
+[package]
+name = "arbitrage_detector_bot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ethers = { version = "2.0", features = ["abigen", "rustls"] }
+tokio = { version = "1.37", features = ["full"] }
+anyhow = "1.0.100"
+chrono = "0.4.42"
+rusqlite = { version = "0.31", features = ["bundled"] }
+
